@@ -8,7 +8,7 @@ Configuration from [fisadev/fisa-vim-config](https://github.com/fisadev/fisa-vim
 Installation instructions:
 --------------------------
 ```bash
-alias python-vim='docker run -it --name='python-vim $pwd' --rm -v $(pwd):/src fedeg/python-vim:latest'
+alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:latest'
 ```
 
 Use instructions:
