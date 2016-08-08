@@ -1,4 +1,4 @@
-FROM python:2
+FROM python:latest
 MAINTAINER Federico Gonzalez (https://github.com/fedeg/)
 
 RUN apt-get update -y && apt-get install -y curl vim exuberant-ctags git ack-grep
