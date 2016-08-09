@@ -27,3 +27,5 @@ alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:2'
 ```bash
 python-vim
 ```
+
+#### Installation instructions and docs [here](https://fedeg.github.io/python-vim/ "github page").
