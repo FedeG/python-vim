@@ -4,6 +4,10 @@ Docker with fisadev vim configuration (lot of python, autocompletition, fuzzy fi
 
 Configuration from [fisadev/fisa-vim-config](https://github.com/fisadev/fisa-vim-config "fisa-vim-config"), a vim configuration for the modern pythonista.
 
+## Installation and documentation
+- [Documentation](https://fedeg.github.io/python-vim/ "github page").
+- [Image in docker hub](https://hub.docker.com/r/fedeg/python-vim/ "docker hub").
+
 ### Badges
 
 ##### Python 3 (latest, 3, 3.5, 3.5.2):
@@ -37,5 +41,3 @@ alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:2'
 ```bash
 python-vim
 ```
-
-#### Installation instructions and docs [here](https://fedeg.github.io/python-vim/ "github page").
