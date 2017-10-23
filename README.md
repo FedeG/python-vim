@@ -12,7 +12,7 @@ Configuration from [fisadev/fisa-vim-config](https://github.com/fisadev/fisa-vim
 
 ### Badges
 
-##### Python 3 (latest, 3, 3.5, 3.5.2):
+##### Python 3 (latest, 3, 3.5, 3.6.3):
 [![](https://images.microbadger.com/badges/version/fedeg/python-vim:latest.svg)](http://microbadger.com/images/fedeg/python-vim:latest "Get your own version badge on microbadger.com")  [![](https://images.microbadger.com/badges/image/fedeg/python-vim:latest.svg)](http://microbadger.com/images/fedeg/python-vim:latest "Get your own image badge on microbadger.com")
 
 ##### Python 2 (2, 2.7, 2.7.12):
@@ -27,7 +27,12 @@ alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:latest'
 ### Install for specific python version:
 Change docker image tag
 
-#####  Python 3 (latest, 3, 3.5, 3.5.2):
+#####  Python 3 (3.5, 3.5.2):
+```bash
+alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:3.5'
+```
+
+#####  Python 3 (latest, 3, 3.6, 3.6.3):
 ```bash
 alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:3'
 ```
