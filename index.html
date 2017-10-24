@@ -54,7 +54,7 @@
           </p>
         </p>
           <pre>
-alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:latest'</pre>
+alias python-vim='docker run -it --rm -v $(pwd):/src --workdir /src fedeg/python-vim:latest'</pre>
         </p>
         <p>
           <strong>Optional:</strong> Install for specific python version:
@@ -66,14 +66,22 @@ alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:latest'</p
               <a href="http://microbadger.com/images/fedeg/python-vim:2.7.12" title="Get your own image badge on microbadger.com"><img src="https://images.microbadger.com/badges/image/fedeg/python-vim:2.7.12.svg"></a>
           </p>
           <pre>
-alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:2'</pre>
-          <h4>Python 3 (latest, 3, 3.5, 3.5.2):</h4>
+alias python-vim='docker run -it --rm -v $(pwd):/src --workdir /src fedeg/python-vim:2'</pre>
+          <h4>Python 3.5 (3.5, 3.5.2):</h4>
           <p>
               <a href="http://microbadger.com/images/fedeg/python-vim:3.5.2" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/fedeg/python-vim:3.5.2.svg"></a>
               <a href="http://microbadger.com/images/fedeg/python-vim:3.5.2" title="Get your own image badge on microbadger.com"><img src="https://images.microbadger.com/badges/image/fedeg/python-vim:3.5.2.svg"></a>
           </p>
           <pre>
-alias python-vim='docker run -it --rm -v $(pwd):/src fedeg/python-vim:3'</pre>
+alias python-vim='docker run -it --rm -v $(pwd):/src --workdir /src fedeg/python-vim:3.5'</pre>
+
+          <h4>Python 3 (latest, 3, 3.6, 3.6.3):</h4>
+          <p>
+              <a href="http://microbadger.com/images/fedeg/python-vim:3.6" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/fedeg/python-vim:3.6.svg"></a>
+              <a href="http://microbadger.com/images/fedeg/python-vim:3.6" title="Get your own image badge on microbadger.com"><img src="https://images.microbadger.com/badges/image/fedeg/python-vim:3.6.svg"></a>
+          </p>
+          <pre>
+alias python-vim='docker run -it --rm -v $(pwd):/src --workdir /src fedeg/python-vim:3'</pre>
         </p>
         <p>
           <strong>2)</strong> Run vim for current/working directory (<code>$(pwd)</code>).
@@ -103,10 +111,18 @@ docker pull fedeg/python-vim:latest</pre>
           </p>
           <pre>
 docker pull fedeg/python-vim:2</pre>
-          <h4>Python 3 (latest, 3, 3.5, 3.5.2):</h4>
+ <h4>Python 3.5 (3.5, 3.5.2):</h4>
           <p>
               <a href="http://microbadger.com/images/fedeg/python-vim:3.5.2" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/fedeg/python-vim:3.5.2.svg"></a>
               <a href="http://microbadger.com/images/fedeg/python-vim:3.5.2" title="Get your own image badge on microbadger.com"><img src="https://images.microbadger.com/badges/image/fedeg/python-vim:3.5.2.svg"></a>
+          </p>
+          <pre>
+docker pull fedeg/python-vim:3</pre>
+
+          <h4>Python 3 (latest, 3, 3.6, 3.6.3):</h4>
+          <p>
+              <a href="http://microbadger.com/images/fedeg/python-vim:3.6" title="Get your own version badge on microbadger.com"><img src="https://images.microbadger.com/badges/version/fedeg/python-vim:3.6.svg"></a>
+              <a href="http://microbadger.com/images/fedeg/python-vim:3.6" title="Get your own image badge on microbadger.com"><img src="https://images.microbadger.com/badges/image/fedeg/python-vim:3.6.svg"></a>
           </p>
           <pre>
 docker pull fedeg/python-vim:3</pre>
